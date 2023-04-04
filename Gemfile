@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '3.1.2'
 
-gem 'rails', '7.0.4'
+gem 'rails', '7.0.4.3'
 gem 'bootstrap', '4.6.0'
 gem 'attr_encrypted', git: 'https://github.com/octobox/attr_encrypted.git', branch: 'rails-7'
 gem 'jquery-rails'
@@ -21,9 +21,9 @@ gem 'pg_search'
 gem 'jbuilder'
 gem 'rake', require: false
 gem 'rgb'
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.0.0'
 gem 'sidekiq-unique-jobs'
-gem 'sidekiq-scheduler', require: false
+gem 'sidekiq-scheduler', '>= 5.0.0', require: false
 gem 'rack-canonical-host'
 gem 'sidekiq-status'
 gem 'gemoji', require: false
@@ -32,7 +32,7 @@ gem 'bugsnag'
 gem 'jwt'
 gem 'oj'
 gem 'yard', require: false
-gem 'commonmarker'
+gem 'commonmarker', '>= 0.23.7'
 gem 'pg', '1.4.4'
 gem 'rexml'
 gem 'omniauth-rails_csrf_protection'
