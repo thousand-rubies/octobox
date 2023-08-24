@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 ruby '3.1.2'
 
-gem 'rails', '7.0.4'
-gem 'bootstrap', '4.6.0'
+gem 'rails', '7.0.7.1'
+gem 'bootstrap', '4.6.1'
 gem 'attr_encrypted', git: 'https://github.com/octobox/attr_encrypted.git', branch: 'rails-7'
-gem 'jquery-rails'
-gem 'pagy'
+gem 'jquery-rails', '>= 4.5.1'
+gem 'pagy', '>= 6.0.0'
 gem 'local_time'
-gem 'octicons_helper'
+gem 'octicons_helper', '>= 17.7.0'
 gem 'octokit'
 gem 'omniauth-github', '2.0.1'
 gem 'puma'
@@ -64,6 +64,6 @@ end
 
 group :production do
   gem 'skylight', '~> 5.3.4'
-  gem 'lograge'
+  gem 'lograge', '>= 0.13.0'
   gem 'puma_worker_killer'
 end
