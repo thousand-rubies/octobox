@@ -46,7 +46,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'factory_bot'
+  gem 'factory_bot', '>= 6.3.0'
   gem 'webmock'
   gem 'mocha'
   gem 'minitest'
