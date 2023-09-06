@@ -54,7 +54,7 @@ group :test do
 end
 
 group :development do
-  gem 'web-console'
+  gem 'web-console', '>= 4.2.1'
   gem 'listen'
   gem 'spring'
   gem 'brakeman'
