@@ -21,11 +21,11 @@ gem 'pg_search'
 gem 'jbuilder'
 gem 'rake', require: false
 gem 'rgb'
-gem 'sidekiq'
-gem 'sidekiq-unique-jobs'
-gem 'sidekiq-scheduler', require: false
+gem 'sidekiq', '>= 7.1.3'
+gem 'sidekiq-unique-jobs', '>= 7.1.28'
+gem 'sidekiq-scheduler', '>= 5.0.0', require: false
 gem 'rack-canonical-host'
-gem 'sidekiq-status'
+gem 'sidekiq-status', '>= 3.0.0'
 gem 'gemoji', require: false
 gem 'bootsnap', require: false
 gem 'bugsnag'
@@ -63,7 +63,7 @@ group :development do
 end
 
 group :production do
-  gem 'skylight', '~> 5.3.4'
+  gem 'skylight', '~> 6.0.0'
   gem 'lograge'
   gem 'puma_worker_killer'
 end
