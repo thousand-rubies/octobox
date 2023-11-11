@@ -7,7 +7,7 @@ gem 'attr_encrypted', git: 'https://github.com/octobox/attr_encrypted.git', bran
 gem 'jquery-rails'
 gem 'pagy'
 gem 'local_time'
-gem 'octicons_helper'
+gem 'octicons_helper', '>= 17.7.0'
 gem 'octokit'
 gem 'omniauth-github', '2.0.1'
 gem 'puma'
@@ -54,7 +54,7 @@ group :test do
 end
 
 group :development do
-  gem 'web-console'
+  gem 'web-console', '>= 4.2.1'
   gem 'listen'
   gem 'spring'
   gem 'brakeman'
@@ -64,6 +64,6 @@ end
 
 group :production do
   gem 'skylight', '~> 5.3.4'
-  gem 'lograge'
+  gem 'lograge', '>= 0.13.0'
   gem 'puma_worker_killer'
 end
