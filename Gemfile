@@ -18,7 +18,7 @@ gem 'faraday_middleware'
 gem 'faraday'
 gem 'uglifier'
 gem 'pg_search'
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.12.0'
 gem 'rake', require: false
 gem 'rgb'
 gem 'sidekiq'
