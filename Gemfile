@@ -35,7 +35,7 @@ gem 'yard', require: false
 gem 'commonmarker'
 gem 'pg', '1.4.4'
 gem 'rexml'
-gem 'omniauth-rails_csrf_protection'
+gem 'omniauth-rails_csrf_protection', '>= 1.0.2'
 gem 'psych', '~> 3.3'
 
 group :development, :test do
