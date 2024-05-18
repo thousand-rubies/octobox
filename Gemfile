@@ -34,8 +34,8 @@ gem 'oj'
 gem 'yard', require: false
 gem 'commonmarker'
 gem 'pg', '1.4.4'
-gem 'rexml'
-gem 'omniauth-rails_csrf_protection'
+gem 'rexml', '>= 3.2.7'
+gem 'omniauth-rails_csrf_protection', '>= 1.0.2'
 gem 'psych', '~> 3.3'
 
 group :development, :test do
@@ -47,14 +47,14 @@ end
 
 group :test do
   gem 'factory_bot'
-  gem 'webmock'
+  gem 'webmock', '>= 3.19.0'
   gem 'mocha'
   gem 'minitest'
   gem 'timecop'
 end
 
 group :development do
-  gem 'web-console'
+  gem 'web-console', '>= 4.2.1'
   gem 'listen'
   gem 'spring'
   gem 'brakeman'
@@ -64,6 +64,6 @@ end
 
 group :production do
   gem 'skylight', '~> 5.3.4'
-  gem 'lograge'
+  gem 'lograge', '>= 0.13.0'
   gem 'puma_worker_killer'
 end
