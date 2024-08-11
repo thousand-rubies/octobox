@@ -17,7 +17,7 @@ gem 'typhoeus'
 gem 'faraday_middleware'
 gem 'faraday'
 gem 'uglifier'
-gem 'pg_search'
+gem 'pg_search', '>= 2.3.7'
 gem 'jbuilder'
 gem 'rake', require: false
 gem 'rgb'
