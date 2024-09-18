@@ -22,7 +22,7 @@ gem 'jbuilder'
 gem 'rake', require: false
 gem 'rgb'
 gem 'sidekiq'
-gem 'sidekiq-unique-jobs'
+gem 'sidekiq-unique-jobs', '>= 7.1.33'
 gem 'sidekiq-scheduler', require: false
 gem 'rack-canonical-host'
 gem 'sidekiq-status'
