@@ -31,7 +31,7 @@ gem 'bootsnap', require: false
 gem 'bugsnag'
 gem 'jwt'
 gem 'oj'
-gem 'yard', require: false
+gem 'yard', '>= 0.9.29', require: false
 gem 'commonmarker'
 gem 'pg', '1.4.4'
 gem 'rexml'
