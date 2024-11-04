@@ -300,7 +300,7 @@ GEM
     redis (4.8.0)
     request_store (1.5.1)
       rack (>= 1.4)
-    rexml (3.2.5)
+    rexml (3.3.9)
     rgb (0.1.0)
     ruby2_keywords (0.0.5)
     rufus-scheduler (3.8.2)
@@ -423,7 +423,7 @@ DEPENDENCIES
   rails (= 7.0.4)
   rails-controller-testing
   rake
-  rexml
+  rexml (>= 3.3.9)
   rgb
   sassc-rails
   sidekiq
@@ -445,4 +445,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.19
+   2.3.26
