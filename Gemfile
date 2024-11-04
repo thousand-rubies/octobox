@@ -34,7 +34,7 @@ gem 'oj'
 gem 'yard', require: false
 gem 'commonmarker'
 gem 'pg', '1.4.4'
-gem 'rexml'
+gem 'rexml', '>= 3.3.9'
 gem 'omniauth-rails_csrf_protection'
 gem 'psych', '~> 3.3'
 
