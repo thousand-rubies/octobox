@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 ruby '3.1.2'
 
-gem 'rails', '7.0.4'
-gem 'bootstrap', '4.6.0'
+gem 'rails', '7.2.0'
+gem 'bootstrap', '4.6.2.1'
 gem 'attr_encrypted', git: 'https://github.com/octobox/attr_encrypted.git', branch: 'rails-7'
 gem 'jquery-rails'
 gem 'pagy'
@@ -21,7 +21,7 @@ gem 'pg_search'
 gem 'jbuilder'
 gem 'rake', require: false
 gem 'rgb'
-gem 'sidekiq'
+gem 'sidekiq', '>= 8.0.0'
 gem 'sidekiq-unique-jobs'
 gem 'sidekiq-scheduler', require: false
 gem 'rack-canonical-host'
