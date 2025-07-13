@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '3.1.2'
 
 gem 'rails', '7.0.4'
-gem 'bootstrap', '4.6.0'
+gem 'bootstrap', '4.6.2.1'
 gem 'attr_encrypted', git: 'https://github.com/octobox/attr_encrypted.git', branch: 'rails-7'
 gem 'jquery-rails'
 gem 'pagy'
@@ -31,7 +31,7 @@ gem 'bootsnap', require: false
 gem 'bugsnag'
 gem 'jwt'
 gem 'oj'
-gem 'yard', require: false
+gem 'yard', '>= 0.9.29', require: false
 gem 'commonmarker'
 gem 'pg', '1.4.4'
 gem 'rexml'
