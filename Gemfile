@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '3.1.2'
 
-gem 'rails', '7.0.4'
+gem 'rails', '7.1.5.2'
 gem 'bootstrap', '4.6.0'
 gem 'attr_encrypted', git: 'https://github.com/octobox/attr_encrypted.git', branch: 'rails-7'
 gem 'jquery-rails'
@@ -17,7 +17,7 @@ gem 'typhoeus'
 gem 'faraday_middleware'
 gem 'faraday'
 gem 'uglifier'
-gem 'pg_search'
+gem 'pg_search', '>= 2.3.7'
 gem 'jbuilder'
 gem 'rake', require: false
 gem 'rgb'
